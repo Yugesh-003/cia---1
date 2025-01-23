@@ -2,6 +2,6 @@ tup = (10, 5, 8, 20, 15)
 
 print(tup)
 
-num = sorted(set(tup))[-2]
+num = sorted(tup)
 
-print("Second largest element :", num)
+print(num[-2])
