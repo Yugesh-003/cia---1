@@ -1,6 +1,10 @@
-#Python program to access elements from a dictionary
-myDict= {'Name':'Sean', 'Age':24,'Hobby':'Dancing','City':'NY'}
+#Python program to update/add elements in a dictionary
+my_dict = {'Car':'Audi','Bike':'Honda'}
 
-print(myDict['Name'])
-print(myDict['Age'])
-print(myDict['Hobby'])
+print(my_dict)
+
+my_dict['Bike'] = 'Kawasaki'
+
+my_dict['Cycle'] = 'Raleigh'
+
+print(my_dict)
